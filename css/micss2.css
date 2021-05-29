@@ -1,0 +1,17 @@
+body{
+    background-color: ghostwhite;
+    font: mormal medium/4.1 sans-serif;
+}
+table{
+    border-collapse: collapse;
+    width: 60%;
+}
+th,td{
+    padding: 0.25rem;
+    text-align: left;
+    border: 1px solid #ccc;
+
+}
+tbody tr:nth-child(odd){
+    background-color: #eee;
+}

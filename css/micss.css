@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+}
+table{
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(../imagenes/fondo.jpg)
+}
+
+
+td{ /*Celdas*/
+    border: 1px solid red;
+    padding: 20px;
+}
+
+
+img{
+    width: 80px;
+    height: 70px;
+    }
+/*Efecto del Texto*/
+
+/*BODY*/
+body{
+    background-color: pink; /*Color fondo*/
+
+}
+h1{
+    text-align: center;
+    line-height: 0,5;
+}
+
+tr:nth-child(2n+1){
+    background-color: beige;
+    color: red
+}

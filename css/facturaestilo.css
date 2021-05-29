@@ -1,0 +1,17 @@
+#factura,tr,td{
+    margin: 0px;
+    padding: 0px;
+
+}
+#factura{
+    border: 2px solid red;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+td{
+    border: 1px solid red;
+}
+.text_peque{
+    font-size: 12px;
+}

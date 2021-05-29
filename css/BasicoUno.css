@@ -1,0 +1,47 @@
+/* ------TABLA DISEÑO----------*/
+table{
+    margin-right: auto;
+    margin-left: auto;
+}
+td{ /*Celda*/
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    width: 350px;
+    height: 200px;
+}
+/*efecto para texto*/
+@import url(http://fonts.googleaplis.com/css?family=Erica+One);
+#bodyBasico{
+    background-attachment: fixed;
+    background-size: 100% 100%;
+   /*overflow: hidden;*/
+}
+h2{
+    cursor:default;
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    display: block;
+    -wedkt-animation: bounce .3s ease infinite alternate;
+    font-family: 'Erica One', cursive;
+    font-size: 80px;
+    color:#FFF;
+    text-align: center;
+    line-height: 100px;
+    text-shadow: 0 1px 0 #ccc,
+        0 2px 0 #ccc,
+        0 3px 0 #ccc,
+        0 4px 0 #ccc,
+        0 5px 0 #ccc,
+        0 6px 0 transparent,
+        0 7px 0 transparent,
+        0 8px 0 transparent,
+        0 9px 0 transparent,
+        0 10px 10px rgba(0,0,0,.6);
+
+
+}

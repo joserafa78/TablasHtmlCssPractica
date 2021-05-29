@@ -1,0 +1,44 @@
+table{
+    font-family: Tahoma;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+table,tr,th,td{
+    border: 1px solid #333
+}
+th{
+    background-color: #F5F5F5;
+    padding: 1em;
+}
+td{
+    padding: 0 .3em;
+}
+.automovil{
+    background: #E6F3FF url(../imagenes/png/DMR_48.png) no-repeat left center ;
+
+}
+.camioneta{
+    background: #E6F3FF url(../imagenes/png/1604.png) no-repeat left center ;
+
+}
+.omnibus{
+    background: #E6F3FF url(../imagenes/png/linux-logo.png) no-repeat left center ;
+
+}
+
+.motos{
+    background: #E6F3FF url(../imagenes/png/apple-logo.png) no-repeat left center ;
+
+}
+
+tr:nth-child(n+1) td{
+    text-align: right;
+}
+tr:nth-child(2n){
+    background-color: #FFFFCC;
+}
+tr:hover{
+     background-color: #FFFF66;
+}
